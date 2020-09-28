@@ -1,4 +1,3 @@
-
 <!doctype html>
 <!-- Thank you to Yong Bakos - Oregon State Cascades -->
 
@@ -9,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home</title>
+    <title>William Jahn</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -20,78 +19,174 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">William Jahn's Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupprtedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">William Jahn</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
           </li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://scratch.mit.edu/projects/429978345">Four Corners</a>
-            <a class="dropdown-item" href="#">Furture Project</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="Projects.html">Portal</a>
-          </div>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
         </ul>
-        </div>
-      </nav>
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">William Jahn's Portfolio</h1>
-          <p>I am William Jahn. I'm currently enrolled in the Computer Science course path at Central Oregon Community College. This is where I will be posting and keeping track of all my projects.</p>
-          <p><a class="btn btn-primary btn-lg" href="Projects.html" role="button">Projects &raquo;</a></p>
+      <div class="jumbotron" >
+        <div class="container" style="height: 130px;">
+          <h1 class="display-3" >William's Portfolio</h1>
+          <p style="font-size: 14pt;">This Portfolio is for my CS160/161/1162/260 class work at COCC</p>
+          <p><a class="btn btn-primary btn-lg" href="http://www.cocc.edu" role="button">My Own Stuff &raquo;</a></p>
         </div>
       </div>
 
       <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+          <div class="col-md-2">
+            <h2>Scratch Programs</h2>
+            <p><a class="btn btn-secondary" href="scratch/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Other Programs</h2>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <div class="col-md-2">
+            <h2>Python Programs</h2>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div class="col-md-2">
+            <h2>Processing Programs</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Greenfoot Programs</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Book Q and A</h2>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
-
-        <hr>
-        
-        This site is still under construction. Things will be added as time goes on.
-
       </div> <!-- /container -->
+
+      <hr>
+
+      <div class="container">
+        <!-- Another row of columns -->
+        <div class="row">
+
+          <div class="col-md-2">
+            <h2>Degree Pathways</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Code Circuits</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>App Inventor</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>CodeHS Snaps</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Midterm Eval</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Short Reads</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div> <!-- /container -->
+
+      <hr>
+        
+      <div class="container">
+        <!-- An another row of columns -->
+        <div class="row">
+
+          <div class="col-md-2">
+            <h2>Elements Ch 1</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Code Combat</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Tresure Hunt</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>The Final Exam</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Extra Credit</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-2">
+            <h2>Any Other Stuff</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div> <!-- /container -->
+
+      <hr>
+
+      <div class="container">
+        <p>FIXME: YOUR CONTENT GOES HERE</p>
+      </div>
       
     </main>
 
     <footer class="container">
-      <p>&copy; COCC 2019-2020</p>
+      <p>&copy; COCC 2020-2021</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
